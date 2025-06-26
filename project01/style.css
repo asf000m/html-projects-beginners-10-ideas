@@ -1,0 +1,39 @@
+/* Body */
+body {
+  margin: 0 10%;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+header ul {
+  display: inline-block;
+  
+}
+header img {
+  width: 250px;
+}
+
+/* Main */
+main {
+  margin: 0 0;
+}
+  /* About Me */
+  #about-me, #my-work {
+    background-color: lightskyblue;
+    margin: 2% 0;
+    padding: 2% 4%;
+  }
+  /* My Work */
+  .project {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 200px;
+    margin: 10px 10px;
+  }
+
+  /* Footer */
