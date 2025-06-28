@@ -7,33 +7,57 @@ body {
 header {
   text-align: center;
 }
-header ul {
-  display: inline-block;
-  
-}
-header img {
-  width: 250px;
-}
+  header img {
+    display: inline-block;
+    max-width: 250px;
+    background-color: lightskyblue;
+  }
+  header ul {
+    list-style: none;
+    margin: 1em 1em;
+  }
+    header ul li {
+      display: inline;
+      margin: 1em 1em;
+    }
 
 /* Main */
-main {
-  margin: 0 0;
+h2 {
+  width: fit-content;
+  margin-bottom: 0.5em;
+  padding: 0.5em 0.5em;
+  background-color: white;
 }
   /* About Me */
   #about-me, #my-work {
     background-color: lightskyblue;
     margin: 2% 0;
-    padding: 2% 4%;
+    padding: 3% 3%;
   }
+    #about-me p {
+      text-align: justify;
+      margin: 0.5em 0;
+    }
   /* My Work */
+  #projects {
+    margin: 0 0;
+    padding: 0 0;
+    text-align: center;
+  }
   .project {
     display: inline-block;
     width: 200px;
     height: 200px;
-    border: 1px solid black;
+    border: 1.5px solid lightgray;
     text-align: center;
     line-height: 200px;
     margin: 10px 10px;
+    list-style: none;
+    background-color: white;
   }
 
-  /* Footer */
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2em 2em;
+}
