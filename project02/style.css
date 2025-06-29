@@ -1,0 +1,41 @@
+/* Header */
+header, footer {
+  padding: 3em 0 1em 0;
+  background-color: lightseagreen;
+  color: white;
+  text-align: center;
+}
+  /* Nav */
+  nav {
+    padding: 2em 0;
+  }
+    nav ul {
+      padding: 0;
+      list-style: none;
+    }
+      nav ul li {
+        display: inline;
+        margin: 0 2em;
+      }
+
+/* Main */
+main {
+  margin: 2.5% 7.5%;
+  padding: 1em 1em;
+  box-shadow: -1px 1px 10px lightgray;
+}
+  h2 {
+    margin-bottom: 0.5em;
+  }
+  .post {
+    margin-bottom: 2em;
+    border-bottom: 1px solid lightgray;
+  }
+    .post p {
+      margin-bottom: 3em;
+    }
+
+/* Footer */
+footer {
+  padding: 3em 0;
+}
