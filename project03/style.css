@@ -2,8 +2,29 @@
 header {
   height: 400px;
   text-align: center;
-  background: no-repeat center/100% url(background202507142218.jpg);
+  background: no-repeat center/cover url(background202507142218.jpg);
+  padding: 10% 5%;
 }
+  h1 {
+    font-size: 3em;
+    color: black;
+  }
+  header p {
+    font-size: 1.5em;
+    margin: 1.2em 0;
+  }
+  header button {
+    font-size: 1.1em;
+    background-color: floralwhite;
+    border: none;
+    border-radius: 5px 5px;
+    padding: 0.8em 1.2em;
+  }
+  header button:hover {
+    scale: 1.05;
+    background-color: rgb(235, 230, 220)
+;
+  }
 
 /* Main */
 
