@@ -7,6 +7,7 @@ body {
 header {
   text-align: center;
 }
+  /* Profile picture */
   header img {
     display: inline-block;
     max-width: 250px;
@@ -20,6 +21,24 @@ header {
       display: inline;
       margin: 1em 1em;
     }
+  /* GitHub profile link */
+  #github-profile {
+    align-items: center;
+  }
+  #github-profile a {
+    display: block;
+    font-size: 1.25em;
+  }
+  #github-profile a::before {
+    content: '';
+    background: url("images/github-mark.svg");
+    background-size: cover;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+    margin-left: -35px;
+  }
 
 /* Main */
 h2 {
