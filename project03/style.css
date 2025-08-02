@@ -1,9 +1,10 @@
 /* Header */
 header {
-  height: 400px;
+  min-height: 400px;
+  max-height: 800px;
   text-align: center;
   background: no-repeat center/cover url(background202507142218.jpg);
-  padding: 10% 5%;
+  padding: 4em 2em;
 }
   h1 {
     font-size: 3em;
@@ -27,5 +28,28 @@ header {
   }
 
 /* Main */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2em 0;
+  background-color: oldlace;
+}
+  /* Features */
+  .feature {
+    margin: 15px 2em;
+    padding: 20px;
+    min-width: 25%;
+    text-align: center;
+    background-color: white;
+  }
+  .feature:hover {
+    transform: scale(1.1);
+  }
 
 /* Footer */
+footer {
+  padding: 2em 2em;
+  background-color: mistyrose;
+  text-align: center;
+}
